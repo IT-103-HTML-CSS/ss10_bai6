@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E1E1E;
+    height: 100px;
+}
+
+header h1,
+header a {
+    text-decoration: none;
+    align-content: center;
+    color: white;
+
+
+}
+nav {
+    align-content: center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+main {
+    background-color: #F8F5F0;
+    text-align: center;  
+}
+
+.card {
+    width: 60%;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+     border-radius: 10px;
+     overflow: hidden;
+
+}
+.card h2 ,p {
+    padding: 10px 20px;
+}
+
+.card a {
+    display: block;
+    padding-bottom: 20px;
+    color: orange;
+    text-decoration: none;
+}
+
+.title-card {
+    display: flex;
+    justify-content: center;
+    
+}
+main h1 {
+padding: 30px 0;
+}
+
+img {
+    width: 100%;
+
+}
+
+main h2 {
+  padding: 40px 0;  
+}
+
+.list h3 {
+    text-transform: capitalize;
+    padding: 20px;
+}
+.list {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+
+.article {
+    background-color: white;
+    width: 80%;
+    text-align: left;
+    border-radius:10px ;
+
+}
+
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #1E1E1E;
+    color: white;
+    text-transform: capitalize;
+}
